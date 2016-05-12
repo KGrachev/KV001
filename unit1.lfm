@@ -1,0 +1,293 @@
+object Form1: TForm1
+  Left = 428
+  Height = 234
+  Top = 212
+  Width = 361
+  Caption = 'EfremBeton'
+  ClientHeight = 234
+  ClientWidth = 361
+  OnClose = FormClose
+  OnCreate = FormCreate
+  LCLVersion = '1.6.0.4'
+  object GroupBox1: TGroupBox
+    Left = 8
+    Height = 108
+    Top = 8
+    Width = 333
+    ClientHeight = 88
+    ClientWidth = 329
+    TabOrder = 0
+    object PortNumComboBox: TComboBox
+      Left = 9
+      Height = 23
+      Top = 16
+      Width = 64
+      ItemHeight = 15
+      ItemIndex = 2
+      Items.Strings = (
+        'COM 1'
+        'COM 2'
+        'COM 3'
+        'COM 4'
+        'COM 5'
+        'COM 6'
+        'COM 7'
+      )
+      OnChange = PortNumComboBoxChange
+      TabOrder = 0
+      Text = 'COM 3'
+    end
+    object Label1: TLabel
+      Left = 24
+      Height = 15
+      Top = 0
+      Width = 22
+      Caption = 'Port'
+      ParentColor = False
+    end
+  end
+  object Label2: TLabel
+    Left = 96
+    Height = 15
+    Top = 24
+    Width = 43
+    Caption = 'DataBits'
+    ParentColor = False
+  end
+  object DataBitsComboBox: TComboBox
+    Left = 88
+    Height = 23
+    Top = 41
+    Width = 56
+    ItemHeight = 15
+    ItemIndex = 0
+    Items.Strings = (
+      '8'
+      '7'
+      '6'
+      '5'
+    )
+    OnChange = PortNumComboBoxChange
+    TabOrder = 1
+    Text = '8'
+  end
+  object Label3: TLabel
+    Left = 168
+    Height = 15
+    Top = 24
+    Width = 30
+    Caption = 'Parity'
+    ParentColor = False
+    OnClick = Label3Click
+  end
+  object ParityComboBox: TComboBox
+    Left = 160
+    Height = 23
+    Top = 41
+    Width = 56
+    Enabled = False
+    ItemHeight = 15
+    ItemIndex = 0
+    Items.Strings = (
+      'None'
+      'Odd'
+      'Even'
+    )
+    TabOrder = 2
+    Text = 'None'
+  end
+  object Label4: TLabel
+    Left = 232
+    Height = 15
+    Top = 24
+    Width = 43
+    Caption = 'StopBits'
+    ParentColor = False
+    OnClick = Label3Click
+  end
+  object StopBitsComboBox: TComboBox
+    Left = 227
+    Height = 23
+    Top = 41
+    Width = 56
+    Enabled = False
+    ItemHeight = 15
+    ItemIndex = 0
+    Items.Strings = (
+      'None'
+      'Odd'
+      'Even'
+    )
+    TabOrder = 3
+    Text = 'None'
+  end
+  object Label5: TLabel
+    Left = 28
+    Height = 15
+    Top = 64
+    Width = 50
+    Caption = 'BaudRate'
+    ParentColor = False
+  end
+  object BaudRateComboBox: TComboBox
+    Left = 20
+    Height = 23
+    Top = 80
+    Width = 60
+    ItemHeight = 15
+    ItemIndex = 5
+    Items.Strings = (
+      '300'
+      '600'
+      '1200'
+      '2400'
+      '4800'
+      '9600'
+      '14400'
+      '19200'
+      '38400'
+      '56000'
+      '57600'
+      '115200'
+      '128000'
+      '256000'
+    )
+    OnChange = PortNumComboBoxChange
+    TabOrder = 4
+    Text = '9600'
+  end
+  object Label6: TLabel
+    Left = 114
+    Height = 15
+    Top = 64
+    Width = 68
+    Caption = 'Flow Control'
+    ParentColor = False
+  end
+  object FlowControlComboBox: TComboBox
+    Left = 90
+    Height = 23
+    Top = 80
+    Width = 124
+    Enabled = False
+    ItemHeight = 15
+    ItemIndex = 1
+    Items.Strings = (
+      'HardWare'
+      'None'
+      'XonXoff'
+    )
+    ItemWidth = 1
+    TabOrder = 5
+    Text = 'None'
+  end
+  object StatusBar1: TStatusBar
+    Left = 0
+    Height = 23
+    Top = 211
+    Width = 361
+    AutoHint = True
+    Panels = <    
+      item
+        Width = 50
+      end    
+      item
+        Width = 50
+      end>
+    ParentShowHint = False
+    SimplePanel = False
+  end
+  object RS485PortComboBox: TComboBox
+    Left = 227
+    Height = 23
+    Top = 80
+    Width = 56
+    ItemHeight = 15
+    ItemIndex = 0
+    Items.Strings = (
+      '1'
+      '2'
+      '3'
+      '4'
+      '5'
+      '6'
+      '7'
+      '8'
+      '9'
+      '10'
+      '11'
+      '12'
+      '13'
+      '14'
+      '15'
+    )
+    TabOrder = 7
+    Text = '1'
+  end
+  object Label7: TLabel
+    Left = 224
+    Height = 15
+    Top = 64
+    Width = 56
+    Caption = 'RS485 Port'
+    ParentColor = False
+  end
+  object GroupBox2: TGroupBox
+    Left = 8
+    Height = 78
+    Top = 122
+    Width = 208
+    Caption = 'Время до опроса контроллера, сек'
+    ClientHeight = 58
+    ClientWidth = 204
+    ParentColor = False
+    TabOrder = 8
+    object TimeLabel: TLabel
+      Left = 9
+      Height = 36
+      Top = 5
+      Width = 145
+      Caption = 'TimeLabel'
+      Color = clWhite
+      Font.CharSet = RUSSIAN_CHARSET
+      Font.Color = clBlue
+      Font.Height = -32
+      Font.Name = 'Arial'
+      Font.Pitch = fpVariable
+      Font.Quality = fqDraft
+      ParentColor = False
+      ParentFont = False
+      Transparent = False
+      OnClick = TimeLabelClick
+    end
+  end
+  object Label8: TLabel
+    Left = 232
+    Height = 15
+    Top = 136
+    Width = 109
+    Caption = 'Период опроса, сек'
+    ParentColor = False
+    OnClick = Label3Click
+  end
+  object Edit1: TEdit
+    Left = 231
+    Height = 23
+    Top = 160
+    Width = 110
+    OnChange = Edit1Change
+    TabOrder = 9
+    Text = '10'
+  end
+  object Timer1: TTimer
+    Interval = 10000
+    OnTimer = Timer1Timer
+    left = 296
+    top = 72
+  end
+  object Timer2: TTimer
+    OnTimer = Timer2Timer
+    left = 296
+    top = 16
+  end
+end

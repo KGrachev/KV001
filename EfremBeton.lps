@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="9"/>
+    <BuildModes Active="Без информации отладчика"/>
+    <Units Count="25">
+      <Unit0>
+        <Filename Value="EfremBeton.pas"/>
+        <IsPartOfProject Value="True"/>
+        <CursorPos X="75" Y="9"/>
+        <UsageCount Value="126"/>
+        <Bookmarks Count="1">
+          <Item0 X="84" Y="10"/>
+        </Bookmarks>
+        <Loaded Value="True"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="unit1.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="Form1"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="Unit1"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="1"/>
+        <TopLine Value="383"/>
+        <CursorPos X="29" Y="389"/>
+        <UsageCount Value="126"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="C:\lazarus\Проекты\ЕфремовскийЦемент\text.txt"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="64"/>
+        <CursorPos X="45" Y="71"/>
+        <UsageCount Value="35"/>
+        <DefaultSyntaxHighlighter Value="None"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="C:\lazarus\components\PascalScript\Source\uPSComponent.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="259"/>
+        <UsageCount Value="1"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="C:\lazarus\lcl\comctrls.pp"/>
+        <UnitName Value="ComCtrls"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="13"/>
+        <UsageCount Value="1"/>
+      </Unit4>
+      <Unit5>
+        <Filename Value="C:\lazarus\serial\SdpoSerial\sdposerial.pas"/>
+        <UnitName Value="SdpoSerial"/>
+        <EditorIndex Value="-1"/>
+        <WindowIndex Value="-1"/>
+        <TopLine Value="214"/>
+        <CursorPos X="3" Y="216"/>
+        <UsageCount Value="9"/>
+      </Unit5>
+      <Unit6>
+        <Filename Value="C:\lazarus\serial\SdpoSerial\synaser.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="114"/>
+        <CursorPos X="69" Y="137"/>
+        <UsageCount Value="57"/>
+      </Unit6>
+      <Unit7>
+        <Filename Value="C:\lazarus\lcl\customtimer.pas"/>
+        <UnitName Value="CustomTimer"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="141"/>
+        <CursorPos Y="151"/>
+        <UsageCount Value="12"/>
+      </Unit7>
+      <Unit8>
+        <Filename Value="C:\lazarus\lcl\interfaces\win32\win32callback.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="2676"/>
+        <CursorPos Y="2685"/>
+        <UsageCount Value="12"/>
+      </Unit8>
+      <Unit9>
+        <Filename Value="C:\lazarus\lcl\interfaces\win32\win32object.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="358"/>
+        <CursorPos Y="366"/>
+        <UsageCount Value="4"/>
+      </Unit9>
+      <Unit10>
+        <Filename Value="..\..\..\..\AppData\Local\Temp\Temp1_CtrlTerm-Lazarus-122513.zip\synaser.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="76"/>
+        <UsageCount Value="1"/>
+      </Unit10>
+      <Unit11>
+        <Filename Value="..\..\..\..\AppData\Local\Temp\Temp1_CtrlTerm-Lazarus-122513.zip\CtrlTerm.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="546"/>
+        <CursorPos X="21" Y="373"/>
+        <UsageCount Value="1"/>
+      </Unit11>
+      <Unit12>
+        <Filename Value="C:\lazarus\lcl\include\control.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="3258"/>
+        <CursorPos Y="3273"/>
+        <UsageCount Value="40"/>
+      </Unit12>
+      <Unit13>
+        <Filename Value="C:\lazarus\lcl\lresources.pp"/>
+        <UnitName Value="LResources"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="3155"/>
+        <CursorPos Y="3165"/>
+        <UsageCount Value="37"/>
+      </Unit13>
+      <Unit14>
+        <Filename Value="C:\lazarus\lcl\include\customform.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="3153"/>
+        <CursorPos Y="3071"/>
+        <UsageCount Value="37"/>
+      </Unit14>
+      <Unit15>
+        <Filename Value="C:\lazarus\lcl\include\application.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="2203"/>
+        <CursorPos Y="2168"/>
+        <UsageCount Value="37"/>
+      </Unit15>
+      <Unit16>
+        <Filename Value="..\..\..\..\AppData\Local\Temp\Temp1_FloatingPoint.zip\FloatingPoint\Unit1.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="19"/>
+        <CursorPos X="13" Y="93"/>
+        <UsageCount Value="29"/>
+      </Unit16>
+      <Unit17>
+        <Filename Value="C:\lazarus\lcl\include\wincontrol.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="6447"/>
+        <CursorPos Y="6458"/>
+        <UsageCount Value="10"/>
+      </Unit17>
+      <Unit18>
+        <Filename Value="C:\lazarus\lcl\interfaces\win32\win32wsstdctrls.pp"/>
+        <UnitName Value="Win32WSStdCtrls"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="987"/>
+        <CursorPos Y="1001"/>
+        <UsageCount Value="10"/>
+      </Unit18>
+      <Unit19>
+        <Filename Value="C:\lazarus\lcl\interfaces\win32\win32proc.pp"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="889"/>
+        <CursorPos X="16" Y="1045"/>
+        <UsageCount Value="10"/>
+      </Unit19>
+      <Unit20>
+        <Filename Value="C:\lazarus\lcl\forms.pp"/>
+        <UnitName Value="Forms"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="1762"/>
+        <CursorPos X="51" Y="1769"/>
+        <UsageCount Value="13"/>
+      </Unit20>
+      <Unit21>
+        <Filename Value="C:\lazarus\fpc\3.0.0\source\rtl\objpas\sysutils\filutilh.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="153"/>
+        <CursorPos X="29" Y="167"/>
+        <UsageCount Value="12"/>
+      </Unit21>
+      <Unit22>
+        <Filename Value="C:\lazarus\fpc\3.0.0\source\rtl\win\sysutils.pp"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="282"/>
+        <CursorPos Y="288"/>
+        <UsageCount Value="12"/>
+      </Unit22>
+      <Unit23>
+        <Filename Value="C:\lazarus\fpc\3.0.0\source\rtl\objpas\sysutils\osutilsh.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="40"/>
+        <CursorPos X="10" Y="46"/>
+        <UsageCount Value="10"/>
+      </Unit23>
+      <Unit24>
+        <Filename Value="C:\lazarus\fpc\3.0.0\source\rtl\objpas\sysutils\osutil.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="107"/>
+        <CursorPos X="3" Y="110"/>
+        <UsageCount Value="10"/>
+      </Unit24>
+    </Units>
+    <JumpHistory Count="2" HistoryIndex="1">
+      <Position1>
+        <Filename Value="unit1.pas"/>
+        <Caret Line="471" Column="113" TopLine="463"/>
+      </Position1>
+      <Position2>
+        <Filename Value="unit1.pas"/>
+        <Caret Line="478" TopLine="463"/>
+      </Position2>
+    </JumpHistory>
+  </ProjectSession>
+  <Debugging>
+    <BreakPoints Count="1">
+      <Item1>
+        <Kind Value="bpkSource"/>
+        <WatchScope Value="wpsLocal"/>
+        <WatchKind Value="wpkWrite"/>
+        <Source Value="C:\lazarus\serial\SdpoSerial\synaser.pas"/>
+        <Line Value="2309"/>
+      </Item1>
+    </BreakPoints>
+    <Watches Count="9">
+      <Item1>
+        <Expression Value="buf_in"/>
+      </Item1>
+      <Item2>
+        <Expression Value="buf_in[5]"/>
+      </Item2>
+      <Item3 ClassAutoCast="True">
+        <Expression Value="v_a"/>
+        <DisplayStyle Value="wdfStructure"/>
+      </Item3>
+      <Item4>
+        <Expression Value="v_a"/>
+      </Item4>
+      <Item5>
+        <Expression Value="v_a"/>
+        <DisplayStyle Value="wdfMemDump"/>
+      </Item5>
+      <Item6>
+        <Expression Value="AllVes1"/>
+        <DisplayStyle Value="wdfMemDump"/>
+      </Item6>
+      <Item7>
+        <Expression Value="(buf_in[6]"/>
+      </Item7>
+      <Item8>
+        <Expression Value="buf_in[5]"/>
+      </Item8>
+      <Item9 ClassAutoCast="True">
+        <Expression Value="ser.WaitingData"/>
+        <DisplayStyle Value="wdfChar"/>
+      </Item9>
+    </Watches>
+  </Debugging>
+</CONFIG>
